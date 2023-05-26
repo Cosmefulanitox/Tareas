@@ -17,6 +17,11 @@ public:
     int getAnio();
     void cargaDefault();
     std::string toString(std::string formatoFecha = "DD/MM/YYYY");
+    void cargar();
+    void mostrar();
+    void setDia(int d);
+    void setMes(int m);
+    void setAnio(int y);
 };
 
 
