@@ -1,11 +1,12 @@
 # depslib dependency file v1.0
-1684896676 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\main.cpp
+1685127686 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\main.cpp
 	<iostream>
 	<string>
 	"Fecha.h"
 	"Tarea.h"
 	"Funciones.h"
 	"Listatarea.h"
+	"TareaArchivos.h"
 
 1684689065 c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\fecha.h
 	<string>
@@ -20,7 +21,7 @@
 	<cstring>
 	"Fecha.h"
 
-1684695637 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\tarea.cpp
+1684897026 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\tarea.cpp
 	<iostream>
 	<stdio.h>
 	"Tarea.h"
@@ -36,11 +37,19 @@
 	<iostream>
 	"Tarea.h"
 
-1684896929 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\listatarea.cpp
+1685121687 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\listatarea.cpp
 	"Listatarea.h"
 	"Funciones.h"
 
-1684695762 c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\listatarea.h
+1685078514 c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\listatarea.h
 	<string>
 	"Tarea.h"
+
+1685121285 c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\tareaarchivos.h
+	"Tarea.h"
+
+1685127223 source:c:\users\pc\desktop\programacion 2023\laboratorio 2\fecha\fecha\src\tareaarchivos.cpp
+	<stdio.h>
+	<cstring>
+	"TareaArchivos.h"
 

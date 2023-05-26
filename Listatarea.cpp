@@ -56,13 +56,15 @@ void ListaDetarea::cambiarestado()
  }
   void ListaDetarea::mostrarTareaunica(int id)
   {
-      std::cout<<tar[id].mostrar()<<std::endl;
+      tar[id].mostrar();
   }
        void ListaDetarea::modificarTarea(int id)
        {
+           bool opc;
            std::cout<<"¿Desea confirmar que la tarea fue realziada?"<<std::endl;
              std::cout<<"|1-si| ---------------------|0-no|"<<std::endl;
-           if(opc==1
+             std::cin>>opc;
+           if(opc==1)
               {
                   bool est=1;
            tar[id].setEstado(est);
